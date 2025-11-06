@@ -82,6 +82,30 @@ body {
   font-weight: 500;
 }
 
+/* Minimalist buttons */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-minimal {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid rgba(26, 26, 26, 0.3);
+  background: transparent;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.btn-minimal:hover {
+  border-color: rgba(26, 26, 26, 0.6);
+  background: rgba(26, 26, 26, 0.05);
+}
+
 .site-footer {
   margin-top: 50px;
   font-size: 12px;
@@ -232,6 +256,23 @@ body {
 
 .orcid-link {
   margin-top: 40px;
+}
+
+.btn-orcid {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid rgba(26, 26, 26, 0.3);
+  background: transparent;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.btn-orcid:hover {
+  border-color: rgba(26, 26, 26, 0.6);
+  background: rgba(26, 26, 26, 0.05);
 }
 
 /* Post Page */
